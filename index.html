@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled form - Google Forms</title>
+    <link rel="icon" href="googleform.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-title">
+            <div class="project">Project</div>
+            <div class="title">Google Forms Clone</div>
+        </div>
+
+        <div class="nav-links">
+            <div class="link questions"><span>Questions</span>
+                <div class="questions-shadow"></div>
+            </div>
+            <div class="link responses"><span>Responses</span>
+                <div class="responses-shadow"></div>
+            </div>
+            <div class="link settings"><span>Settings</span>
+                <div class="settings-shadow"></div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="section1">
+            <div class="cap"></div>
+            <h2>Untitled form</h2>
+            <p>Form description</p>
+        </section>
+        <section class="section2">
+
+            <div class="form">
+                <div class="hr">
+                    <hr id="hr">
+                </div>
+                <div id="textbox" role="textbox" contenteditable="true">
+                    Untitled Question
+                    <hr>
+                </div>
+                <div class="photo"><i class="bi bi-image" title="image"></i></div>
+                <div id="menu">
+                    <i class="bi bi-stop-circle"></i>
+                    <select>
+                        <option value="">Multliple Choice</option>
+                        <option value="">Dropdown</option>
+                        <option value="">Checkbox</option>
+                        <option value="">File Upload</option>
+                    </select>
+                </div>
+                <div class="option1"><input type="radio"><label>Option 1</label></div>
+                <div class="option1"><input type="radio"><label><span class="add-option">Add Option</span> or <span
+                            class="add-other">Add "Other"</span></label></div>
+                <hr id="last-hr">
+                <div class="last-section">
+                    <div class="copy"><i class="bi bi-clipboard2-data" title="Dublicate"></i></div>
+                    <div class="delete"><i class="bi bi-trash" title="Delete"></i></div>
+                    <hr class="line">
+                    <div class="toggle"><span class="require">Require</span><label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label></div>
+                    <div class="dot-line"><i class="bi bi-three-dots-vertical"></i></div>
+                </div>
+            </div>
+
+        </section>
+        <aside>
+            <div class="inside-icons"><i class="bi bi-plus-circle"></i></div>
+            <div class="inside-icons"><i class="bi bi-upload"></i></div>
+            <div class="inside-icons"><i class="bi bi-fonts"></i></div>
+            <div class="inside-icons"><i class="bi bi-images"></i></div>
+            <div class="inside-icons"><i class="bi bi-play-btn"></i></div>
+            <div class="inside-icons"><i class="bi bi-list"></i></div>
+        </aside>
+
+    </div>
+    <footer>&#169;Anshuman Sinha 2023.</footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
